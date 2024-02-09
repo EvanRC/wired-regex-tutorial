@@ -22,7 +22,11 @@ Anchors are an essential part of a character validation regex because they ensur
 Quantifers in a regex specify how many instances of character, group, or character class must be present in the target sequence for a match to be found. Thye play the important role of defining the flexibilty and constraints of the pattern that your're matching. 
 In the context of a character name validator, we use the quantifer `{0,10}` to specify how many times the following characters (`[A-Za-z' ]`) can appear. This means that the name can have 0 to 19 characters after the intitial letter. Allowing for a total length of 20 characters. 
 ### Character Classes
-
+For a simple definition, a character class in a Regex defines a set of characters, any one of which can match at that point in the pattern. Our regex is utilizing to character classes to define which characters are permissble in charcter names. 
+`[A-Za-z]`: This character class allow for additional letters(uppercase and lowercase), apostrophes, and spaces. This makes sure all names start with a letter as per tradional naming conventions. 
+(`[A-Za-z' ]`): After the first character, this class allow for additional letters (all that were mentioned in the previous character class). This allows for more complex names to to be created.
+In conclusion a character class clearly defines what passes as a name within your rule set while also allowing personal expression. 
+ 
 ### Bracket Expressions
 
 ## Author
