@@ -4,9 +4,7 @@ Regex, short for regular expression, is a sequence of characters that forms a se
 
 ## Summary
 
-In this tutorial, I will be explaining the functionality of a Regex expression to help myself and others knowledge on the subject. In this tutorial we are going to narrow in on the example of Charaacter name validation in an MMORPG. For example, a name validation Regex could ensure that a character name starts with a letter, and can include letters, apostrophies, and spaces, with a total lengh of up to 20 characters. Here is Regex pattern that could do this: 
- `^[A-Za-z][A-Za-z' ]{0,19}$`
-
+In this tutorial, I will be explaining the functionality of a Regex expression to help myself and others knowledge on the subject. In this tutorial we are going to narrow in on the example of Charaacter name validation in an MMORPG. For example, a name validation Regex could ensure that a character name starts with a letter, and can include letters, apostrophies, and spaces, with a total lengh of up to 20 characters. 
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -21,7 +19,8 @@ In this tutorial, I will be explaining the functionality of a Regex expression t
 ### Anchors
 Anchors are an essential part of a character validation regex because they ensure that the regex does not partially match long strings that include the pattern amidst other characters. Without the start (`^`) and end (`$`) anchors, the regex might validate names that don't actually adhere to the overall validation rules due to them having valid patterns within them. They clearly define the boundaries of our search pattern, making sure that character names start and end exactly as our regex defines. To be more precise (`^`) means that the valid character name must start with the patterns that follow imdedietly after after this symbol. While The (`$`) after the allowed 0-19 characters, the name must come to an end. 
 ### Quantifiers
-
+Quantifers in a regex specify how many instances of character, group, or character class must be present in the target sequence for a match to be found. Thye play the important role of defining the flexibilty and constraints of the pattern that your're matching. 
+In the context of a character name validator, we use the quantifer `{0,10}` to specify how many times the following characters (`[A-Za-z' ]`) can appear. This means that the name can have 0 to 19 characters after the intitial letter. Allowing for a total length of 20 characters. 
 ### Character Classes
 
 ### Bracket Expressions
