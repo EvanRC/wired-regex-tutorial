@@ -28,7 +28,8 @@ For a simple definition, a character class in a Regex defines a set of character
 In conclusion a character class clearly defines what passes as a name within your rule set while also allowing personal expression. 
  
 ### Bracket Expressions
-
+Bracket expressions, which are sometimes used interchangebly with character classes. Define a set of character of which any single character may match at a given position in the string being searched. Within the context of our character name validation regex, The pattern uses bracket expressions in two key places. The intitial letter requirement, and the subsequenct characters allowed. 
+In conclusion bracket expressions are often reffered to as part of character classes and play a crucial role in defining the permissible character sets within patterns. 
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
