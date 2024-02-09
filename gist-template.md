@@ -11,39 +11,20 @@ In this tutorial, I will be explaining the functionality of a Regex expression t
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+ Here is an example of a Regex pattern to validate a character name: 
+ `^[A-Za-z][A-Za-z' ]{0,19}$`
 
 ### Anchors
-
+Anchors are an essential part of a character validation regex because they ensure that the regex does not partially match long strings that include the pattern amidst other characters. Without the start (`^`) and end (`$`) anchors, the regex might validate names that don't actually adhere to the overall validation rules due to them having valid patterns within them. They clearly define the boundaries of our search pattern, making sure that character names start and end exactly as our regex defines. To be more precise (`^`) means that the valid character name must start with the patterns that follow imdedietly after after this symbol. While The (`$`) after the allowed 0-19 characters, the name must come to an end. 
 ### Quantifiers
-
-### OR Operator
 
 ### Character Classes
 
-### Flags
-
-### Grouping and Capturing
-
 ### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
