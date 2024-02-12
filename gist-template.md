@@ -41,4 +41,6 @@ In conclusion bracket expressions are often reffered to as part of character cla
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hey my name is Evan, and I am an aspiring web developer currently enrolled in, and soon to finish UC Davis full stack coding bootcamp. I have learned many new skills throughout this bootcamp and created many different projects using them. From HTMl, CSS, and JavaScript to SQL and beyond. You can find all my projects on [GitHub](https://github.com/EvanRC)!
+
+
