@@ -6,12 +6,8 @@
 
 A tutorial created by yours truly to help myself and other better understand the power of a regex.
 
-## Table of Contents
-
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [Character Classes](#character-classes)
-- [Bracket Expressions](#bracket-expressions)
+## Gist Link
+https://gist.github.com/EvanRC/5ab0c6163a220367e2ac1746db8f28d8
 
 ## License
 
